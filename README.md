@@ -6,6 +6,11 @@ itself**.
 
 > This repository contains only original code and documentation. It does **not** contain the game,
 > its code or its data. You need your own copy of the game.
+> This ROM hack has been vibe-coded a lot. I wanted to have unlimited sudokus with the old and
+> trusty write-on-screen input to be able to reduce my on screen time, but I don´t really have much time to implement it.
+> This is the first time I have used the AI to vibe-code almost an entire project by itself.
+> I'm quite impressed with the result but a part of me feels that I should have done it by myself, even if it took me a long time.
+> Since the work is done, I prefer to give it to the people to enjoy it.
 
 ## Features
 
