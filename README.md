@@ -20,10 +20,8 @@ itself**.
   unused bytes of the normal save slot, so the save format is unchanged.
 - **No stamps.** Random puzzles never award stamps or records, so they don't affect your progress on
   the original puzzles.
-- **NEO branding.** A red "NEO" stamp on the title screen, and "NEO" in the DS menu title.
-- **All six languages:** English, French, German, Spanish, Italian and Dutch.
 
-## Installing (players)
+## Installing
 
 Download `Brain Training NEO.bps` from the [Releases](../../releases) page and apply it to a clean dump
 of the EU game, using [Rom Patcher JS](https://www.marcrobledo.com/RomPatcher.js/) (in the browser) or
@@ -34,7 +32,7 @@ of the EU game, using [Rom Patcher JS](https://www.marcrobledo.com/RomPatcher.js
 | Required ROM | 16 MB | `FE158662` | `a4c8b20886cbfc44311658b97aeb23b407f7aba2` |
 | Patched ROM (1.0) | 16 MB | `A110AEE2` | `d8cd186de0134ac21e5806c21851ddbb00a7ec24` |
 
-Save files are compatible both ways with the original game. It has been tested in melonDS only.
+Save files are compatible both ways with the original game. It has been tested in melonDS and it is currently being tested on a 3DS.
 
 ## Building from source
 
@@ -82,7 +80,7 @@ which freed its 308 bytes in the ARM9 for all the resident hooks. See
 
 ## Credits and legal
 
-Brain Training NEO was made with the help of Ghidra, melonDS, DeSmuME, ndstool and Flips.
+Brain Training NEO was made with the help of Ghidra, melonDS, DeSmuME, ndstool, Flips and Claude.
 "Brain Training", "Nintendo DS" and all game content are trademarks and property of Nintendo. This
 project is not affiliated with or endorsed by Nintendo. The code in this repository is released
 under the [MIT License](LICENSE).
