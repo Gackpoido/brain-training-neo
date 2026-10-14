@@ -1,0 +1,116 @@
+{
+ "arm9_size": 878596,
+ "arm9_sha1": "66e8d4cc13a046d5aceb61016f361465dddb022e",
+ "blob_tiles_offset": 80,
+ "blob_tiles_size": 1024,
+ "patches": [
+  {
+   "addr": "0x020438E8",
+   "new": "0020a0e3ffffffeaf0412de90040a0e10150a0e10260a0e1d8009fe57e9000eb0070a0e1633700eb0080b0e11000000a0810a0e10720a0e1b8009fe50030a0e3169000eb070affeb0000a0e3150f07ee0400a0e10510a0e10820a0e106c088e03cff2fe10040a0e10800a0e13a3700eb0400a0e1f081bde810402de92c0000eb0600a0e10820a0e3deffffeb1080bde813402de9491200eb0300bde80c20a0e3d8ffffeb1080bde8810050e3852a001a44c09fe500c09ce500005ce38000a01338c09f1500008c157e2a00ea4b12d0e5a50051e30000e0031eff2f01083090e55effffea10402de94d9600eb1020a0e3c4ffffeb1080bde85c950c02bc590d02c8d90d02000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+   "what": "resident.s (region of 308 bytes)",
+   "orig_sha1": "740f818f6e89e80d427a8ec9eebc5a5af5885fe5"
+  },
+  {
+   "addr": "0x020C93CC",
+   "new": "080055e30600001a1c109fe5000091e5010020e2000081e51000a0e3ef31feeb8d06feea070055e34006feeabc590d02",
+   "what": "toggle_button.s (region of 48 bytes)",
+   "orig_sha1": "c17fd92682ca5b304ac71074b558dda9e8eb4d66"
+  },
+  {
+   "addr": "0x020C941C",
+   "new": "290e86e20586feeb080050e30530a0030430a0130600a0e10110a0e30120a0e34d7ffeeb0106a0e3580286e50307a0e35c0286e5050000ea",
+   "what": "draw_button_a.s (region of 56 bytes)",
+   "orig_sha1": "9438e360f578e12c0e0e8ed28e2c125c1cefee16"
+  },
+  {
+   "addr": "0x020C946C",
+   "new": "18009fe5000090e5000050e30900a003800286050600a0e1967dfeebdb3000eabc590d02",
+   "what": "draw_button_b.s (region of 36 bytes)",
+   "orig_sha1": "8696cf0f4655636cc93c566c1be2dad311da646c"
+  },
+  {
+   "addr": "0x020D57FC",
+   "new": "1c009fe51e1d80e2122da0e30810b0e80810a1e8082052e2fbffff1a0600a0e1aed5fdea00c02006",
+   "what": "button_shadow.s (region of 40 bytes)",
+   "orig_sha1": "b80de5d138758541c5f05265ad144ab9fa86d1db"
+  },
+  {
+   "addr": "0x020D5984",
+   "new": "8000a0e300008de52000a0e304008de54000a0e308008de5290e84e20810a0e30020a0e3e030a0e38253feeb0200a0e3d5e6feeb65d6fdea",
+   "what": "register_button.s (region of 56 bytes)",
+   "orig_sha1": "9438e360f578e12c0e0e8ed28e2c125c1cefee16"
+  },
+  {
+   "addr": "0x020C955C",
+   "new": "2f646174612f5375646f6b752f7367656e2e62696e00",
+   "what": "blob path string (unused zero gap)",
+   "orig_sha1": "60ab0dd2ef31cfb96d52fa0a429c3803417db5c2"
+  },
+  {
+   "addr": "0x020437CC",
+   "new": "0420a0e3460000ea",
+   "what": "select_puzzle_by_number -> blob_cont (mov r2,#4; b call_blob)",
+   "orig_sha1": "3e0063436607475b4cef9c31d3b02262c741ce99"
+  },
+  {
+   "addr": "0x02043744",
+   "new": "9a0000ea",
+   "what": "get_current_stamp_id -> h_stamp",
+   "orig_sha1": "449ea56ed7e15689c431ca9c0ed1d2e5bc0d09c3"
+  },
+  {
+   "addr": "0x0204ADA4",
+   "new": "ede2ffeb",
+   "what": "difficulty pressed: bl init_sudoku_puzzle_bank -> h_menu",
+   "orig_sha1": "bc7f1e618489cbb7078759623e82ea4e337bc567"
+  },
+  {
+   "addr": "0x0204ADBC",
+   "new": "e7e2ffeb",
+   "what": "difficulty pressed: bl init_sudoku_puzzle_bank -> h_menu",
+   "orig_sha1": "8b5f015f3795334d8d9a13bff4309b8bb4b686c4"
+  },
+  {
+   "addr": "0x0204ADD4",
+   "new": "e1e2ffeb",
+   "what": "difficulty pressed: bl init_sudoku_puzzle_bank -> h_menu",
+   "orig_sha1": "cb958a5f509501d89997b542f80333b89d0cc276"
+  },
+  {
+   "addr": "0x02049360",
+   "new": "84e9ffeb",
+   "what": "save & exit: bl pack_cells -> h_save",
+   "orig_sha1": "2c7a34a1f3ffb8e566794d3cff38f44a40487448"
+  },
+  {
+   "addr": "0x02050F84",
+   "new": "81caffeb",
+   "what": "screen switch -> h_screen",
+   "orig_sha1": "2434d4b5e31fe95d7f9c96168f2af83e41e17e10"
+  },
+  {
+   "addr": "0x0204B078",
+   "new": "53e2ffeb",
+   "what": "difficulty screen init -> h_icon",
+   "orig_sha1": "ab9bac1fbdde0f098b382b3218820ebab3142305"
+  },
+  {
+   "addr": "0x0204ACF8",
+   "new": "b3f901eb",
+   "what": "menu touch dispatch -> toggle_button",
+   "orig_sha1": "fb009063396c165bc91a44a3663133a1c4a05df4"
+  },
+  {
+   "addr": "0x0204AED8",
+   "new": "4ff901eb",
+   "what": "menu per-frame draw -> draw_button_a",
+   "orig_sha1": "2fb666df338e2065c5421555fc022913e104b270"
+  },
+  {
+   "addr": "0x0204B34C",
+   "new": "8c2902eb",
+   "what": "difficulty screen init -> register_button",
+   "orig_sha1": "124ae2656e3ac5213cafb3706f06847e3133eaca"
+  }
+ ]
+}

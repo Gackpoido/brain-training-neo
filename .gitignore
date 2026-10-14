@@ -1,0 +1,26 @@
+# Never commit game content: ROMs, saves, savestates or anything extracted from them.
+*.nds
+*.srl
+*.sav
+*.dsv
+*.cmp
+*.dat
+*.NCER
+*.NANR
+*.NCGR
+*.NSCR
+*.NCLR
+*.bmg
+*.NFTR
+*.bin
+!prebuilt/*.bin
+extracted/
+data/
+
+# build outputs
+out/
+*.o
+*.elf
+*.bps
+__pycache__/
+*.pyc
